@@ -40,10 +40,10 @@ LSTM Temporal Modeling
 ↓
 Early Human Intent Prediction ✅
 
-
-📌 *Add a system architecture diagram here:*  
+<img width="837" height="817" alt="image" src="https://github.com/user-attachments/assets/3db7764b-03cf-4881-b141-6ccb0da7465a" />
+ 
 ```markdown
-![System Architecture](images/system_architecture.png)
+
 🏗️ Methodology & Pipeline 🔍
 1️⃣ Pose Estimation 🧍
 Webcam captures live video frames
@@ -52,9 +52,6 @@ MediaPipe Pose extracts 33 full-body landmarks per frame
 
 Each landmark provides (x, y, z) coordinates
 
-📌 Example pose visualization:
-
-![Pose Estimation](images/pose_estimation.png)
 2️⃣ Temporal Sequence Formation ⏱️
 Pose landmarks flattened into 99-dimensional vectors
 
@@ -82,9 +79,6 @@ data/X.npy → Pose sequences
 
 data/y.npy → Intent labels
 
-📌 Add dataset visualization here:
-
-![Dataset Overview](images/dataset.png)
 ⚙️ Model Architecture 🧩
 Input: Pose sequences (30, 99)
 
