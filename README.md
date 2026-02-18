@@ -18,7 +18,7 @@ Unlike traditional action recognition systems that react *after* an action finis
 ✅ Early decision-making  
 ✅ Proactive human–machine interaction  
 ✅ Lightweight & real-time  
-✅ No GPU dependency  
+✅ No GPU dependency 
 
 **Use cases include:**
 - 🤖 Human–Robot Interaction  
